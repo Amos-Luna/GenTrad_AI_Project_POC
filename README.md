@@ -6,7 +6,7 @@ An aditional scope of the current project is that users can generate images from
 Thats an funny and interactive project.
 
 ## Requirements
-Verify the version of python for the current project
+Verify the Python version for the current project
 ```
     $ python --version
     Python 3.10.9
