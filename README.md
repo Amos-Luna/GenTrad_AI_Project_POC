@@ -5,7 +5,14 @@ The GenClass AI Project in Python is designed for users who can easly interact u
 An aditional scope of the current project is that users can generate images from prompts and after that, they can easly classify this image generated.
 Thats an funny and interactive project.
 
-## Installation
+## Requirements
+Verify the version of python for the current project
+```
+    $ python --version
+    Python 3.10.9
+ ```
+
+## Development
 Ensure you have all the requirements libreries installed:
 
 Follow the instructions:
