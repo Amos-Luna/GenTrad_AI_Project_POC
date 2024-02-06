@@ -25,7 +25,6 @@ def main():
                 json.dump(response_request, file, indent=4)
             
             image_link = text_to_image_generator_fetch(response_request= response_request)
-            #Ejm: image_link = 'https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/generations/0-d98d0e8c-a342-4235-9b8f-857a18d5c7d1.png'
             
             col1.success(f'Image Link: {image_link}')
             col1.image(image_link, caption='Successfully Image Generated')
@@ -56,8 +55,7 @@ def main():
             response_request = json.load(file)
             
         image_link = text_to_image_generator_fetch(response_request= response_request)
-        #Ejm: image_link = 'https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/generations/0-d98d0e8c-a342-4235-9b8f-857a18d5c7d1.png'
-        
+
         if (image_link != '') and (input_text != ''):
             col1.image(image_link, caption='Successfully Image Generated')
             
