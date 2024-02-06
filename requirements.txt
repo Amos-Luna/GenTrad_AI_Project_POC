@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+pydantic
+pyngrok
+gunicorn
+Flask
+requests
+streamlit 
+streamlit-webrtc 
+opencv-python-headless
+Pillow
+python-multipart
+torch 
+torchvision 
+torchaudio
+transformers
